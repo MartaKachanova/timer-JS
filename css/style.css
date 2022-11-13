@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat/Montserrat-Bold.woff");
+}
+
+.body {
+    background-image: url("../png/usa-california-los-angeles-5169.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.timer {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 200px;
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.timer__title {
+    font-size: 24px;
+}
+
+.timer__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.timer__block-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+    font-family: Montserrat;
+}
+
+.timer__block-dots {
+    font-size: 50px;
+    margin-top: -27px;
+}
+
+span:first-child {
+    font-size: 70px;
+}
